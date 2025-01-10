@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TAGFLOZ/static/css/main.4d265ebf.chunk.css",
+    "main.js": "/TAGFLOZ/static/js/main.60ed2322.chunk.js",
+    "main.js.map": "/TAGFLOZ/static/js/main.60ed2322.chunk.js.map",
+    "runtime-main.js": "/TAGFLOZ/static/js/runtime-main.fc75e159.js",
+    "runtime-main.js.map": "/TAGFLOZ/static/js/runtime-main.fc75e159.js.map",
+    "static/js/2.df2908fb.chunk.js": "/TAGFLOZ/static/js/2.df2908fb.chunk.js",
+    "static/js/2.df2908fb.chunk.js.map": "/TAGFLOZ/static/js/2.df2908fb.chunk.js.map",
+    "index.html": "/TAGFLOZ/index.html",
+    "static/css/main.4d265ebf.chunk.css.map": "/TAGFLOZ/static/css/main.4d265ebf.chunk.css.map",
+    "static/js/2.df2908fb.chunk.js.LICENSE.txt": "/TAGFLOZ/static/js/2.df2908fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc75e159.js",
+    "static/js/2.df2908fb.chunk.js",
+    "static/css/main.4d265ebf.chunk.css",
+    "static/js/main.60ed2322.chunk.js"
+  ]
+}
