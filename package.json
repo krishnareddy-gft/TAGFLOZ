@@ -2,6 +2,7 @@
   "name": "react_dark_theme_navbar",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://your-username.github.io/your-repo-name",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -10,6 +11,8 @@
     "react-scroll": "^1.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
@@ -32,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

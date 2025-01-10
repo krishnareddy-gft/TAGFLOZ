@@ -12,7 +12,7 @@ import VehicleIdentification from './components/services/VehicleIdentification';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <Routes>
