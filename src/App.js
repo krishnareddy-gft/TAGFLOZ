@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from './Navbar';
 import Home from './components/Home';
@@ -12,7 +12,7 @@ import VehicleIdentification from './components/services/VehicleIdentification';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <Navbar />
         <Routes>
